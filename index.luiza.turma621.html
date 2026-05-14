@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Desenvolvedor</title>
+</head>
+<body>
+   <header> <!-- Header: É um elemento que representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação.-->
+        <h1>Portfólio de Desenvolvedor</h1> <!-- H1: É um elemento de título que representa o título mais importante em um documento HTML. Ele é usado para indicar o assunto principal ou o título de uma seção. -->
+        <p>Bem-vindo ao meu portfólio! <br>
+        Aqui você encontrará informações sobre minha trajetória profissional, projetos desenvolvidos e habilidades técnicas.</p> <!-- P: É um elemento de parágrafo que representa um bloco de texto. Ele é usado para agrupar e formatar o conteúdo textual em um documento HTML. -->
+   </header>
+   <section> <!-- Section: É um elemento que representa uma seção genérica de um documento. Ele é usado para agrupar conteúdo relacionado e pode conter outros elementos, como títulos, parágrafos, imagens, etc. -->
+        <h2>Sobre mim</h2> <!-- H2: É um elemento de título que representa o segundo nível de importância em um documento HTML. Ele é usado para indicar subtítulos ou seções secundárias dentro de um documento. -->
+            <p>Possuo habilidades no meio virtual, com facilidade no <strong> uso de plataformas digitais</strong> <!-- strong: A tag é usada para definir texto com alta importância. O conteúdo dentro dela geralmente é exibido em negrito. -->, criação de conteúdos e organização de informações em ambientes online. Tenho experiência com ferramentas voltadas ao <strong>desenvolvimento de projetos</strong>, edição de arquivos, comunicação digital e navegação na internet. Também apresento bom desempenho em atividades relacionadas a <em>design</em>, <em>layout</em>, <em>software</em> <!-- em: A tag é usada para definir texto enfatizado. O conteúdo dentro dela é normalmente exibido em itálico .-->, <em>upload</em>, <em>download</em> e gerenciamento de feedback, contribuindo para maior eficiência e adaptação em ambientes tecnológicos. </p>
+   </section>
+    <main> <!-- Main: É um elemento que representa o conteúdo principal de um documento. Ele é usado para agrupar o conteúdo que é diretamente relacionado ao tema central do documento, excluindo elementos como cabeçalhos, rodapés, barras laterais, etc. -->
+        <h2>Formulário de Contato</h2>
+        <form> <!-- Form: É um elemento que representa uma seção de um documento destinada a conter controles interativos para enviar informações a um servidor. Ele é usado para criar formulários de entrada, como campos de texto, botões de opção, caixas de seleção, etc. -->
+            <fieldset> <!-- Fieldset: É um elemento que representa um grupo de controles relacionados dentro de um formulário. Ele é usado para agrupar elementos de formulário relacionados, como campos de entrada, rótulos, etc., e geralmente é acompanhado por uma legenda (legend) para descrever o grupo. -->
+            <legend>Informações Pessoais</legend> <!-- Legend: É um elemento que representa uma legenda para um grupo de controles relacionados dentro de um formulário. Ele é usado para fornecer uma descrição ou título para o conjunto de elementos agrupados por um fieldset. -->
+        
+                <label for="nome">Nome:</label> <!-- Label: É um elemento que representa uma legenda para um controle de formulário. Ele é usado para associar um rótulo descritivo a um elemento de formulário, como um campo de entrada, caixa de seleção, etc. O atributo "for" é usado para associar o rótulo ao elemento de formulário correspondente, usando o valor do atributo "id" do elemento de formulário. -->
+                <input type="text" id="nome" name="nome" required><!-- Input: É um elemento que representa um campo de entrada de texto. Ele é usado para permitir que os usuários digitem informações em um formulário. --> <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <br>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Área de Interesse</legend>
+                
+                <p>Selecione a área de interesse:</p>
+                
+                <input type="radio" id="back-end" name="grupo" value="1" required>
+                <label for="back-end">Back-end</label>
+            
+                <br>
+
+                <input type="radio" id="front-end" name="grupo" value="2">
+                <label for="front-end">Front-end</label>
+                
+                <br>
+
+                <input type="radio" id="full-stack" name="grupo" value="3">
+                <label for="full-stack">Full-stack</label> <br>
+                
+                <br>
+            
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Habilidades Técnicas</legend>
+                
+                <p>Selecione as habilidades técnicas:</p>
+            
+                <input type="checkbox" id="HTML" name="HTML" value="HTML" >
+                <label for="HTML">Html</label><br>
+
+                <input type="checkbox" id="C" name="C" value="C">
+                <label for="C">C</label><br>
+
+                <input type="checkbox" id="GIT" name="GIT" value="GIT">
+                <label for="GIT">Git</label><br>
+
+                <input type="checkbox" id="REDE" name="REDE" value="REDE">
+                <label for="REDE">Redes</label><br>
+                
+                <br>
+
+                <label for="mensagem">Informação extra:</label> <br>
+                <textarea id="mensagem" name="mensagem" required></textarea> <br>
+                <br>
+
+            </fieldset>
+            
+        <br>
+
+        <button type="submit">Enviar</button> <!-- Button: É um elemento que representa um botão clicável. Ele é usado para criar botões de envio, reset, ou botões personalizados para interações específicas em um formulário. O atributo "type" é usado para especificar o tipo de botão, como "submit" para enviar o formulário, "reset" para limpar os campos do formulário, ou "button" para um botão genérico que pode ser programado com JavaScript. -->
+
+        </form>
+    </main>
+
+        <br><br>
+
+    <footer> <!-- Footer: É um elemento que representa o rodapé de um documento ou seção. Ele é usado para conter informações de rodapé, como direitos autorais, links de contato, etc. -->
+        <a href="https://github.com/usuarioficticio"> Repositório no GitHub</a> <!--a: É um elemento que representa um link para um recurso externo. Ele é usado para criar um link para outro documento ou site. -->
+        <p>© 2026 Portfólio de Desenvolvedor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
